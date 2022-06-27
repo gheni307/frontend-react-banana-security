@@ -17,7 +17,8 @@ function NavBar() {
             </h3>
           </span>
         </Link>
-        {isAuth ? <button
+        {isAuth ?
+            <button
             type="button"
             onClick={notLogin}
         >
